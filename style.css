@@ -1,0 +1,355 @@
+@media only screen and (max-width: 600px) {
+    .name {
+        flex-direction: column;
+    }
+
+    .hero-section{
+        margin-top: 0px;
+    }
+
+  }
+
+body {
+    background-color: rgb(20,20,20);
+    color:white;
+    font-family: "lato",'sans-serif';
+}
+
+.about {
+    width : 70%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    padding: 10px 10px;
+    margin-bottom:-50px;
+    font-family: "sen","lato",'sans-serif';
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(51,41,64);
+}
+
+.profile-pict {
+    width: auto;
+    max-width : 200px;
+}
+
+.p-p-image {
+    width:auto;
+    max-width :170px
+}
+
+li {
+    list-style: none;
+    margin: 5px 10px;
+}
+
+.hero-section {
+    width:100%;
+    margin-top:17vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.technical-skills {
+    float: left;
+}
+
+.general-skills {
+    float:right
+}
+
+.name {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+    font-weight : 800;
+    margin: 0;
+}
+
+.light-text {
+    font-size: 50px;
+    font-weight: 1;
+}
+
+footer {
+    font-size: 12.5px;
+    font-family: "sen",'sans-serif','lato';
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width : 100%;
+    margin-top: 50px;
+}
+
+footer ul {
+    display: flex;
+    padding :30px;
+}
+
+.copyright-icon {
+    width:15px;
+    color: white;
+    fill: currentColor;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.about, .quote {
+    font-family: "sen","lato","sans-serif";
+    text-align: center;
+}
+
+.wave {
+    fill: black;
+    width : 100vw;
+    height: 65vh;
+    position : fixed;
+    bottom : 0;
+    left :0
+}
+
+
+.social-icon {
+    width : 40%;
+    margin-top : 10px;
+}
+
+.hero-section, .edu-wrappers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*workingexp.html section*/
+.work-exp-wrapper h2 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.work-link {
+    font-size: 18px;
+}
+
+.company{
+    margin-bottom: 0px;
+}
+
+.five-jack a {
+    color: #307FE2;
+}
+
+.five-jack a:hover {
+    font-size: 22px;
+    color: #FFAD00;
+}
+
+.marbels a {
+    color:#057dcd;
+}
+
+.marbels a:hover{
+    color:#222a35;
+    font-size: 22px;
+}
+
+.hacktiv8 a {
+    color: #F36C43;
+}
+
+.hacktiv8 a:hover {
+    font-size: 22px;
+    color: #F5932D;
+}
+
+.campaign-com a {
+    color: #0082FF;
+}
+
+.campaign-com a:hover {
+    font-size: 22px;
+    color: #12005A;
+}
+
+.job-details {
+    margin-left: 5px;
+}
+
+.li-jd {
+    list-style: circle;
+}
+
+.period{
+    margin-top: 0;
+    font-family: "sen","lato","sans-serif";
+}
+
+.period-marbels {
+    background-image:url(img/marbels.png);
+    border-radius: 20px;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width : 135px;
+    padding : 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px #057dcd;
+    margin-right:7px;
+}
+
+.work-exp-marbels {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 80%;
+    height :auto;
+    padding : 5px;
+    color : #000;
+    font-family: "sen","lato","san-serif";
+}
+
+.period-itemku {
+    background-image:url(img/itemku.jpg);
+    border-radius: 20px;
+    background-position-x: 45%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 190%;
+    height: auto;
+    width:135px;
+    box-sizing: border-box;
+    margin-right: 7px;
+    box-shadow: 0 0 5px 5px #307FE2;
+}
+
+.work-exp-fivejack {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 80%;
+    height :auto;
+    padding : 5px;
+    color : #000;
+    font-family: "sen","lato","san-serif";
+}
+
+.period-hacktiv8 {
+    background-image:url(img/h8.jpg);
+    background-color: #F19529;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width : 135px;
+    background-size: 100%;
+    height:auto;
+    padding : 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px #F36C43;
+    margin-right:7px;
+}
+
+.work-exp-hacktiv8 {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 80%;
+    height :auto;
+    padding : 5px;
+    color : #000;
+}
+
+
+.period-campaign {
+    background-image:url(img/campaign.jpg);
+    border-radius: 20px;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width : 135px;
+    padding : 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px #307FE2;
+    margin-right:5px;
+}
+
+.work-exp-campaign {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 80%;
+    height :auto;
+    padding : 5px;
+    color: black;
+}
+
+.boxes {
+    margin-bottom :13px;
+    display:flex;
+    justify-content: space-around;
+}
+
+/*educationexp.html section*/
+.certificate {
+    text-shadow: 1px 1px blue;
+}
+
+.edu-table td{
+    padding:20px;
+}
+
+.edu-table {
+    margin-top:80px;
+}
+
+/*contact.html area*/
+.contact-word {
+    text-align: center;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.contact-item {
+    margin-top: 10px;
+}
+
+.contact-logo {
+    width : 50px;
+    color : white;
+    fill: currentColor;
+}
+
+.contact-logo:hover {
+    color: rgb(255,0,180);
+}
+
+.opening {
+    width: 70%;
+    margin:15px auto;
+}
+
+.opening a {
+    color:#057dcd;
+}
+
+.opening a:hover {
+    color:#FFAD00;
+    font-size: 18px;
+}
