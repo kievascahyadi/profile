@@ -7,8 +7,24 @@
         margin-top: 0px;
     }
 
+    .hamburger {
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
   }
+  @media only screen and (min-width: 600px) {
 
+    .hamburger {
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+  }
 body {
     background-color: rgb(20,20,20);
     color:white;
@@ -19,19 +35,19 @@ body {
     width : 70%;
 }
 
-header {
-    display: flex;
-    justify-content: center;
+.nav-list.show {
+    display: block;
 }
 
-header ul {
+
+header nav ul {
     display: flex;
     padding: 10px 10px;
     margin-bottom:-50px;
     font-family: "sen","lato",'sans-serif';
     position: fixed;
     z-index: 2;
-    background-color: rgb(51,41,64);
+    background-color: rgb(34, 33, 36);
 }
 
 .profile-pict {
@@ -122,6 +138,53 @@ a {
     left :0
 }
 
+.project {
+    text-align: center;
+    background-color: white;
+    color:rgb(150, 16, 132);
+    width:auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.project h2 {
+    padding-top : 10px;
+}
+
+table {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+.first-row {
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.table-number1, .table-value1 {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.table-number {
+    width: 50px;
+    height: 20px;
+}
+
+table tr a {
+    color: rgb(150, 16, 132);
+}
+
+table tr a:hover {
+    font-size: 20px;
+}
+
+.table-value {
+    width: 300px;
+}
 
 .social-icon {
     width : 40%;
