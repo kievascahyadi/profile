@@ -7,6 +7,7 @@
         <link rel="icon" href="https://pbs.twimg.com/card_img/1472423450077716480/7djUuSjw?format=png&name=small">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,12 +80,15 @@
     </svg>-->
 
         <header>
-            <ul id="menu-aja" class="menu-list">
+            <nav>
+            <ul id="nav-list" class="nav-list">
                 <a href="home.html"><li>Home</li></a>
                 <a href="educationexp.html"><li>EducationExp</li></a>
                 <a href="workingexp.html"><li>WorkingExp</li></a>
                 <a href="contact.html"><li>Contact</li></a>
             </ul>
+            <button class="hamburger" id="hamburger"><i class="fa fa-bars"></i></button>
+            </nav>
         </header>
      
 
@@ -102,11 +106,34 @@
                 </div>
         </div>
 
-        <p class="about">A human resources practitioner that want to learn FrontEnd Development and have more than 7 years of experience in technical and human resources area</p>
+        <p class="about">A human resources practitioner that want learn FrontEnd Development and have more than 7 years of experience in technical and human resources area</p>
         <p class="quote" style="margin-bottom: 0;">I learn to fish so I could feed myself and other people as well
         </p>
         </section>
-    
+
+        <section class="project">
+            <h2>Project Lists</h2>
+            <div class="project-table">
+                <table>
+                    <tr class="first-row">
+                        <td class="table-number1">No.</td>
+                        <td class="table-value1">Project Name</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-number">1</td>
+                        <td class="table-value"><a href="https://dayuhomeku.netlify.app/" target="_blank">DayuhomeKu (Property Web)</a></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-number">2</td>
+                        <td class="table-value"><a href="https://copy-ui-itemku.netlify.app/" target="_blank">Copy itemku's UI</a></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-number">3</td>
+                        <td class="table-value"><a href="https://nft-product-challenge.netlify.app/" target="_blank">NFT Product Challenge</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
         
         <footer>
             <p class="copyright-words">
